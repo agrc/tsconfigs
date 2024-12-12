@@ -1,6 +1,6 @@
 {
   "name": "@ugrc/tsconfigs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Shareable tsconfigs for UGRC projects",
   "license": "MIT",
   "type": "module",
