@@ -1,26 +1,17 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
+  "extends": ["@total-typescript/tsconfig/bundler/no-dom", "./base.json"],
 
   /* this comes from the vite typescript react template: https://github.com/vitejs/vite/blob/main/packages/create-vite/template-react-ts/tsconfig.node.json */
   "compilerOptions": {
-    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.node.tsbuildinfo",
-    "target": "ES2022",
-    "lib": ["ES2023"],
-    "module": "ESNext",
-    "skipLibCheck": true,
+    /* Project */
+    "composite": true, // required for project references in tsconfig.json
 
-    /* Bundler mode */
+    /* Modules */
+    "module": "ESNext",
     "moduleResolution": "bundler",
-    "allowImportingTsExtensions": true,
-    "isolatedModules": true,
-    "moduleDetection": "force",
-    "noEmit": true,
 
     /* Linting */
-    "strict": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true,
     "noUncheckedSideEffectImports": true
   },
   "include": ["vite.config.ts"]
