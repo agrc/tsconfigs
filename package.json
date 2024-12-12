@@ -5,7 +5,7 @@
   "license": "MIT",
   "type": "module",
   "exports": {
-    "./browser-app": "./src/browser-app.json",
+    "./browser": "./src/browser.json",
     "./vite-config": "./src/vite-config.json"
   },
   "scripts": {

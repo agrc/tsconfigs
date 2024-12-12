@@ -12,7 +12,7 @@ Shareable tsconfigs for UGRC projects based on [`@total-typescripts/tsconfig`](h
   "files": [],
   "references": [
     {
-      "path": "./tsconfig.app.json"
+      "path": "./tsconfig.browser.json"
     },
     {
       "path": "./tsconfig.vite-config.json"
@@ -20,9 +20,9 @@ Shareable tsconfigs for UGRC projects based on [`@total-typescripts/tsconfig`](h
   ]
 }
 
-// tsconfig.app.json
+// tsconfig.browser.json
 {
-  "extends": "@ugrc/tsconfigs/browser-app",
+  "extends": "@ugrc/tsconfigs/browser",
   "include": ["src"]
 }
 
