@@ -22,17 +22,19 @@ jobs:
         with:
           show-progress: false
 
+      - name: 📦 Setup PNPM
+        uses: pnpm/action-setup@v4
+        with:
+          version: 9
+
       - name: ⎔ Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: lts/*
           cache: pnpm
 
-      - name: 📦 Setup PNPM
-        uses: pnpm/action-setup@v4
-        with:
-          version: 9
-          run_install: true
+      - name: 📥 Download dependencies
+        run: pnpm i
 
       - name: 🧶 Lint
         run: pnpm run lint

@@ -19,17 +19,19 @@ jobs:
         with:
           show-progress: false
 
-      - name: ⎔ Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          cache: pnpm
-          node-version: lts/*
-
       - name: 📦 Setup PNPM
         uses: pnpm/action-setup@v4
         with:
           version: 9
-          run_install: true
+
+      - name: ⎔ Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: lts/*
+          cache: pnpm
+
+      - name: 📥 Download dependencies
+        run: pnpm i
 
       - name: 🚢 Deploy to NPM as 'latest'
         if: github.event.release.prerelease == false
