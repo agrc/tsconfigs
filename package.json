@@ -11,8 +11,10 @@
   "scripts": {
     "lint": "eslint ."
   },
+  "dependencies": {
+    "@total-typescript/tsconfig": "^1.0.4"
+  },
   "devDependencies": {
-    "@total-typescript/tsconfig": "^1.0.4",
     "eslint": "^9.16.0",
     "eslint-plugin-json": "^4.0.1",
     "prettier": "^3.4.2",
