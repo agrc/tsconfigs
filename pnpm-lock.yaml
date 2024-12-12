@@ -7,10 +7,11 @@ settings:
 importers:
 
   .:
-    devDependencies:
+    dependencies:
       '@total-typescript/tsconfig':
         specifier: ^1.0.4
         version: 1.0.4
+    devDependencies:
       eslint:
         specifier: ^9.16.0
         version: 9.16.0
