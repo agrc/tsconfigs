@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.3](https://github.com/agrc/tsconfigs/compare/v1.0.2...v1.0.3) (2025-01-07)
+
+
+### Dependencies
+
+* **dev:** bump eslint in the safe-dependencies group ([9c68023](https://github.com/agrc/tsconfigs/commit/9c680232359adcee475c1690296fd04b784e19ac))
+
 ## [1.0.2](https://github.com/agrc/tsconfigs/compare/v1.0.1...v1.0.2) (2024-12-12)
 
 
