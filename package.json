@@ -2,7 +2,26 @@
   "name": "@ugrc/tsconfigs",
   "version": "1.0.3",
   "description": "Shareable tsconfigs for UGRC projects",
+  "homepage": "https://github.com/agrc/tsconfigs",
+  "bugs": {
+    "url": "https://github.com/agrc/tsconfigs/issues/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agrc/tsconfigs.git"
+  },
   "license": "MIT",
+  "author": "ugrc developers",
+  "maintainers": [
+    {
+      "name": "Steve Gourley",
+      "email": "sgourley@utah.gov"
+    },
+    {
+      "name": "Scott Davis",
+      "email": "stdavis@utah.gov"
+    }
+  ],
   "type": "module",
   "exports": {
     "./browser": "./src/browser.json",
