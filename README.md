@@ -1,3 +1,5 @@
+# NOTE: This package was migrated to agrc/kitchen-sink
+
 # @ugrc/tsconfigs
 
 Shareable tsconfigs for UGRC projects based on [`@total-typescripts/tsconfig`](https://github.com/total-typescript/tsconfig).
